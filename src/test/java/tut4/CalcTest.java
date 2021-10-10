@@ -14,9 +14,11 @@ public class CalcTest extends Calc{
         assertEquals(15, add(5,10));
     }
 
-/*    public void add(){
+    @Test
+    void subtract() {
+        assertEquals(1, subtract(3,2));
+    }
 
-    Calc caculate = new Calc();
-    System.out.println(caculate.add(3,2));
-}*/
+
+
 }
